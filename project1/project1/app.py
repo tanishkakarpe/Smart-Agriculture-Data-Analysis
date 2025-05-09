@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import pickle
+import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.cluster import KMeans
 from db import connect_db, fetch_crop_data, insert_crop_data
